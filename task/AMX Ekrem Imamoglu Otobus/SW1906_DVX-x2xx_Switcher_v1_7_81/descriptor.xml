@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding= "UTF-8" ?>
+<descriptor model-version="1.0.0">
+   <release>
+      <name>SW1906_DVX-x2xx_Switcher_v1_7_81</name>
+      <groupId>com.amx.firmware</groupId>
+      <artifactId>Testarosa Switcher</artifactId>
+      <version>1.7.81</version>
+      <extension>kit</extension>
+      <published>2018-2-7T02:00Z</published>
+      <scope>GENERAL_AVAILABILITY</scope>
+      <labels/>
+      <notes/>
+   </release>
+   <devices>
+      <device id="458" name="DVX-x2xx Switcher" category="HYBRID_SWITCHING_AND_CONTROL" family="Enova DVX">
+         <models>
+            <model id="DVX-2210HD-SP" name="Enova DVX-2210HD-SP" fg="FG1906-07" />
+         </models>
+      </device>
+      <device id="459" name="DVX-x2xx Switcher" category="HYBRID_SWITCHING_AND_CONTROL" family="Enova DVX">
+         <models>
+           <model id="DVX-2210HD-T" name="Enova DVX-2210HD-T" fg="FG1906-09" />
+         </models>
+      </device>
+      <device id="452" name="DVX-x2xx Switcher" category="HYBRID_SWITCHING_AND_CONTROL" family="Enova DVX">
+         <models>
+	    <model id="DVX-2250HD-SP" name="Enova DVX-2250HD-SP" fg="FG1906-11" />
+         </models>
+      </device>
+      <device id="453" name="DVX-x2xx Switcher" category="HYBRID_SWITCHING_AND_CONTROL" family="Enova DVX">
+         <models>
+            <model id="DVX-2250HD-T" name="Enova DVX-2250HD-T" fg="FG1906-13" />
+         </models>
+      </device>
+      <device id="454" name="DVX-x2xx Switcher" category="HYBRID_SWITCHING_AND_CONTROL" family="Enova DVX">
+         <models>
+            <model id="DVX-2255HD-SP" name="Enova DVX-2255HD-SP" fg="FG1906-14" />
+         </models>
+      </device>
+      <device id="455" name="DVX-x2xx Switcher" category="HYBRID_SWITCHING_AND_CONTROL" family="Enova DVX">
+         <models>
+            <model id="DVX-2255HD-T" name="Enova DVX-2255HD-T" fg="FG1906-14" />
+         </models>
+      </device>
+      <device id="438" name="DVX-x2xx Switcher" category="HYBRID_SWITCHING_AND_CONTROL" family="Enova DVX">
+         <models>
+            <model id="DVX-3250HD-SP" name="Enova DVX-3250HD-SP" fg="FG1906-15" />
+         </models>
+      </device>
+      <device id="449" name="DVX-x2xx Switcher" category="HYBRID_SWITCHING_AND_CONTROL" family="Enova DVX">
+         <models>
+            <model id="DVX-3250HD-T" name="Enova DVX-3250HD-T" fg="FG1906-16" />
+         </models>
+      </device>
+       <device id="450" name="DVX-x2xx Switcher" category="HYBRID_SWITCHING_AND_CONTROL" family="Enova DVX">
+         <models>
+            <model id="DVX-3255HD-SP" name="Enova DVX-3255HD-SP" fg="FG1906-15" />
+         </models>
+      </device>
+     <device id="451" name="DVX-x2xx Switcher" category="HYBRID_SWITCHING_AND_CONTROL" family="Enova DVX">
+         <models>
+            <model id="DVX-3255HD-T" name="Enova DVX-3255HD-T" fg="FG1906-18" />
+         </models>
+      </device>
+      <device id="456" name="DVX-x2xx Switcher" category="HYBRID_SWITCHING_AND_CONTROL" family="Enova DVX">
+         <models>
+            <model id="DVX-3256HD-SP" name="Enova DVX-3256HD-SP" fg="FG1906-22" />
+         </models>
+      </device>
+      <device id="457" name="DVX-x2xx Switcher" category="HYBRID_SWITCHING_AND_CONTROL" family="Enova DVX">
+         <models>
+            <model id="DVX-3256HD-T" name="Enova DVX-3256HD-T" fg="FG1906-24" />
+         </models>
+       </device>
+  </devices>
+   <prerequisites>
+      <prerequisite>
+         <version-constraint range="[0.0.0,)"/>
+      </prerequisite>
+   </prerequisites>
+   <properties>
+	<property key="REBOOT-DELAY">600</property>
+   </properties>
+</descriptor>

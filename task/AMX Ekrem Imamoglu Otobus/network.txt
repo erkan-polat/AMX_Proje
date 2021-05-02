@@ -1,0 +1,4 @@
+amx --> 192.168.0.100 STATIC
+router --> 192.168.0.1
+admin - admin
+1231231230

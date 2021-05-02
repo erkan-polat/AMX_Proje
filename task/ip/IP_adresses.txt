@@ -1,0 +1,5 @@
+IP LÝSTESÝ
+
+TP-Link			=	192.168.0.1
+AMX				= 	192.168.0.34
+Panasonic PT/VZ470	=	192.168.0.12
